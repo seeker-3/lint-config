@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-rational-order"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "indentation": 2,
+    "declaration-empty-line-before": null,
+    "function-calc-no-invalid": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "selector-combinator-space-before": null
+  }
+}
